@@ -1,0 +1,17 @@
+.jumbotron-background {
+    background: url(images/bmi-gradient7.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.display-4 {
+    font-size: 65px;
+    font-family: "Montserrat", sans-serif;
+    text-shadow: -1px 1px 0 #000,
+                            1px 1px 0 #000,
+                            1px 1px 0 #000,
+                            1px 1px 0 #000; 
+}
+.lead {
+    font-family: "Dosis", sans-serif;
+    font-size: 20px; 
+}
