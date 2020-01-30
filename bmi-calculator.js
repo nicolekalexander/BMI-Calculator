@@ -37,3 +37,8 @@ if (userHeight && userWeight) {
     $("#userHeight").text(userHeight)
     $("#userWeight").text(userWeight)
 }
+
+$("#calculateBMI").on("click", () => { 
+          $("#calculateBMI").addClass('animated bounceOut');
+          return false;
+})
