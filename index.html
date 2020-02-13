@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/pulse/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Sriracha&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
@@ -16,59 +17,57 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="row">
-                <div class="jumbotron jumbotron-background text-light">
-                    <h1 class="display-4">BMI Calculator</h1>
-                    <p class="lead">Calculate your body mass index (BMI) below. And determine your weight class.</p>
-                    <hr class="my-4">
-                    <form class="text-center" id="bmi-calc-form">
-                        <div class="form-group">
-                            <div class="input-group">
-                                <input required type="number" class="form-control" placeholder="weight in pounds" name="weight"
-                                    autofocus>
-                                <div class="input-group-append">
-                                    <span class="input-group-text">lbs</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="input-group">
-                                <input required type="number" class="form-control" placeholder="height in inches" name="height">
-                                <div class="input-group-append">
-                                    <span class="input-group-text">in</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <button type="submit" class="btn btn-secondary calculateBMI">Calculate</button>
-                        </div>
-                    </form>
-                    <div class="text-primary animated bounceInUp delay-1s" id="userResults">
-                        <div class="container">
-                            <div class="card">
-                                <div class="card-body">
-                                    <p class="lead">Your BMI is <span id="userBMI"></span></p>      
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-body">     
-                                    <p class="lead">You are <span id="userWeightClass"></span></p>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-body">     
-                                    <p class="lead">Weight: <span id="userWeight"></span></p>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-body">     
-                                    <p class="lead">Height: <span id="userHeight"></span></p>
-                                </div>
-                            </div>
+    <div class="row">
+        <div class="jumbotron jumbotron-background text-light">
+            <h1 class="display-4">BMI Calculator</h1>
+            <p class="lead">Calculate your body mass index (BMI) below. And determine your weight class.</p>
+            <hr class="my-4">
+            <form class="text-center" id="bmi-calc-form">
+                <div class="form-group">
+                    <div class="input-group">
+                        <input required type="number" class="form-control" placeholder="weight in pounds" name="weight"
+                            autofocus>
+                        <div class="input-group-append">
+                            <span class="input-group-text">lbs</span>
                         </div>
                     </div>
                 </div>
+                <div class="form-group">
+                    <div class="input-group">
+                        <input required type="number" class="form-control" placeholder="height in inches" name="height">
+                        <div class="input-group-append">
+                            <span class="input-group-text">in</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-secondary calculateBMI">Calculate</button>
+                </div>
+            </form>
+            <div class="text-primary animated bounceInUp delay-1s" id="userResults">
+                <div class="container">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="lead userBMI">Your BMI is <span id="userBMI"></span></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="lead userWeightClass">You are <span id="userWeightClass"></span></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="lead userWeight">Weight: <span id="userWeight"></span></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="lead userHeight">Height: <span id="userHeight"></span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <script src="bmi-calculator.js"></script>

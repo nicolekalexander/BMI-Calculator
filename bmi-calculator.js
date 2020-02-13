@@ -34,8 +34,8 @@ if (userHeight && userWeight) {
     $("#userResults").show()
     $("#userBMI").text(Math.round(userBMI), 2)
     $("#userWeightClass").text(userWeightClass)
-    $("#userHeight").text(userHeight)
-    $("#userWeight").text(userWeight)
+    $("#userHeight").text(userHeight + " inches")
+    $("#userWeight").text(userWeight + " pounds")
 }
 
 $("#calculateBMI").on("click", () => { 

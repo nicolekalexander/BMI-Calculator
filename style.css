@@ -1,7 +1,15 @@
+.row {
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .jumbotron-background {
     background: url(images/bmi-gradient7.jpg);
     background-size: cover;
     background-position: center;
+    max-width: 100%;
 }
 .display-4 {
     font-size: 65px;
@@ -14,6 +22,22 @@
     
 }
 .lead {
-    font-family: "Dosis", sans-serif;
+    font-family: "Sriracha", cursive;
     font-size: 20px; 
+}
+
+#userBMI {
+    color: rgb(3, 139, 37);
+}
+
+#userWeightClass {
+    color: #0000CD;
+}
+
+#userWeight {
+    color: #FF00FF;
+}
+
+#userHeight {
+    color: #FF4500;
 }
