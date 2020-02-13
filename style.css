@@ -6,38 +6,46 @@
 }
 
 .jumbotron-background {
-    background: url(images/bmi-gradient7.jpg);
+    background: url(images/bright.jpg);
     background-size: cover;
     background-position: center;
     max-width: 100%;
 }
 .display-4 {
-    font-size: 65px;
+    font-size: 92px;
     max-width: 100px;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat Subrayada", sans-serif;
     text-shadow: -1px 1px 0 #000,
                             1px 1px 0 #000,
                             1px 1px 0 #000,
                             1px 1px 0 #000; 
+    color: rgb(10, 16, 100);
     
 }
 .lead {
-    font-family: "Sriracha", cursive;
-    font-size: 20px; 
+    font-family: "Raleway", sans-serif;
+    font-size: 30px; 
+    color: rgba(190, 99, 99, 0.801);
+    font-weight: lighter;
+    color: rgb(10, 16, 100);
 }
 
 #userBMI {
-    color: rgb(3, 139, 37);
+    color: rgb(115, 199, 224);
+    font-weight: bold;
 }
 
 #userWeightClass {
-    color: #0000CD;
+    color: rgb(0, 205, 178);
+    font-weight: bold;
 }
 
 #userWeight {
     color: #FF00FF;
+    font-weight: bold;
 }
 
 #userHeight {
-    color: #FF4500;
+    color: rgb(26, 40, 233);
+    font-weight: bold;
 }
