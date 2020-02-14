@@ -25,6 +25,9 @@ const urlParams = new URLSearchParams(window.location.search);
 const userHeight = urlParams.get('height')
 const userWeight = urlParams.get('weight')
 
+$("#user-height").val(userHeight)
+$("#user-weight").val(userWeight)
+
 if (userHeight && userWeight) {
     const userBMI = bmiCalculate(userHeight, userWeight)
     console.log(userBMI)
