@@ -3,6 +3,7 @@ html {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    background-color: rgba(227, 75, 159, 0.541);
 }
 
 .row {
