@@ -14,10 +14,8 @@ html {
 }
 
 .jumbotron-background {
-    background: url(images/humanbody.jpg);
-    background-size: cover;
-    background-position: center;
-    max-width: 100%;
+    background: url(images/banana.jpg);
+      
 }
 .display-4 {
     font-size: 45px;
