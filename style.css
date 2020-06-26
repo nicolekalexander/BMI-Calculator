@@ -56,3 +56,9 @@ html {
     color: rgb(26, 40, 233);
     font-weight: bold;
 }
+
+@media (min-width: 720px) {  
+    .input-responsive {
+        width: 25%;
+    }
+}
