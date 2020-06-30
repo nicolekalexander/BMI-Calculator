@@ -6,6 +6,14 @@ html {
     background-color: rgb(10, 16, 100);
 }
 
+.jumbotron {
+    background-color: #008080;
+}
+
+.calculate-button {
+    background-color: rgb(10, 16, 100);
+}
+
 .row {
     max-width: 100%;
     display: block;
